@@ -542,3 +542,20 @@ textarea {
         padding-left: 0 !important;
     }
 }
+
+/* Footer Section */
+
+footer {
+    height: auto;
+    padding-top: 50px;
+    /* padding-bottom: 50px; */
+    background-color: var(--white);
+    background-image: url(/Assets/Img\ 14.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Carposel */
+#carouselExampleDark [data-bs-slide] > span{
+    filter: unset;
+}
