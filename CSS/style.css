@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    height: auto;
+    width: auto;
+    font-family: "Inter",serif;
+}
+
+:root {
+    --white: white;
+    --black: black;
+    --sim-grey:#F9F9F9;
+}
+
+/* Some Common CSS */
+
+/* Text-color */
+
+.white-color{
+    color: var(--white);
+}
+
+.black-color{
+    color: var(--black);
+}
+
+.sim-grey{
+    color: var(--sim-grey);
+}
+
+.sim-orange{
+    color: #ff9c32;
+}
+
+/* Width */
+
+.max-width-1320px{
+    max-width: 1320px;
+}
+
+/* Height */
+
+.height-100-percentage{
+    height: 100%;
+}
+
+/* Font Weight */
+
+.font-weight-600{
+    font-weight: 600;
+}
+
+.font-weight-400{
+    font-weight: 400;
+}
+
+/* Font Size */
+
+.font-size-20px{
+    font-size: 20px;
+}
+
+.font-size-24px{
+    font-size: 24px;
+}
+
+.font-size-42px{
+    font-size: 42px;
+}
+
+.font-size-65px{
+    font-size: 65px;
+}
+
+/* Button */
+
+.button{
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff9c32;
+}
+
+/* Section 1 */
+
+.sec-1 {
+    height: 50px;
+    background-color: var(--black);
+}
+
+@media screen and (max-width: 410px) {
+    .body .sec-1{
+        display: block !important;
+        width: 100% !important;
+        height: auto !important;
+        padding: 10px 0px !important;
+    }
+
+    .sec-1 .sec-1-container-1{
+        width: 100% !important;
+        height: auto !important;
+        text-align: center !important;
+    }
+
+    .sec-1 .sec-1-container-2{
+        width: 100% !important;
+        height: auto !important;
+        text-align: center !important;
+    }
+
+}
+
+
