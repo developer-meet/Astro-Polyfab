@@ -330,3 +330,23 @@ header {
         font-size: 30px !important;
     }
 }
+
+/* Section 5 */
+
+.sec-5{
+    height: auto;
+    padding-top: 100px;
+    padding-bottom:100px;
+    background-color: var(--sim-grey);
+}
+
+@media screen and (max-width: 500px) {
+
+    .body .sec-5 {
+        padding: 70px 10px !important;
+    }
+
+    .sec-5 .sec-5-main-heading{
+        font-size: 30px !important;
+    }
+}
