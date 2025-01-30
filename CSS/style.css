@@ -275,6 +275,11 @@ header {
     margin-bottom: 8.5rem;
 }
 
+/* Carposel */
+#carouselExampleDark [data-bs-slide] > span{
+    filter: unset;
+}
+
 /* Section 4 */
 
 .sec-4 {
@@ -555,7 +560,5 @@ footer {
     background-size: cover;
 }
 
-/* Carposel */
-#carouselExampleDark [data-bs-slide] > span{
-    filter: unset;
-}
+
+
