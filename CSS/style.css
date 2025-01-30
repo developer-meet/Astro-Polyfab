@@ -257,3 +257,13 @@ header{
         margin: auto;
     }
 }
+
+/* Section 3 */
+
+.sec-3{
+    height: 400px;
+}
+
+.sec-3 h1{
+   margin-bottom:  8.5rem;
+}
