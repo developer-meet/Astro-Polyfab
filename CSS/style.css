@@ -693,3 +693,36 @@ footer .footer-top-sec{
         margin-left: 0;
     }
 }
+
+/* Section 5 in About us section */
+
+.about-us-sec-5 {
+    height: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: var(--sim-grey);
+}
+
+@media screen and (max-width: 830px) {
+
+    .about-us-sec-5 .row div{
+        display: block !important;
+        width: 100% !important;
+        margin-top: 20px !important;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    .about-us-sec-5 .about-us-sec-5-main-heading{
+        font-size: 30px !important;
+    }
+
+    .body .about-us-sec-5 {
+        padding: 70px 10px !important;
+    }
+
+    .about-us-sec-5 .row{
+        width: 100% !important;
+    }
+}
