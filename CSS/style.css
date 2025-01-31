@@ -742,3 +742,19 @@ footer .footer-top-sec{
         display: none;
     }
 }
+
+/* Section 5 in Products section */
+
+.products-sec-5 {
+    height: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: var(--sim-grey);
+}
+
+@media screen and (max-width: 500px) {
+
+    .body .products-sec-5 {
+        padding: 70px 10px !important;
+    }
+}
