@@ -553,12 +553,61 @@ textarea {
 footer {
     height: auto;
     padding-top: 50px;
-    /* padding-bottom: 50px; */
     background-color: var(--white);
     background-image: url(/Assets/Img\ 14.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+footer .footer-top-sec{
+    width: 70%;
+    margin: 0 auto 50px;
+}
 
+.top-sub-sec-1{
+    width: 30%;
+}
 
+.footer-bottom-sec{
+    height: 60px;
+    border-top: 2px solid var(--white);
+}
+
+@media screen and (max-width: 950px) {
+    footer .footer-top-sec{
+        width: 90%;
+        margin: 0 auto 50px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    footer .footer-top-sec{
+        display: block !important;
+        width: 100%;
+        text-align: center !important;
+    }
+
+    .footer-top-sec .top-sub-sec-1{
+        width: 90%;
+        margin: auto;
+    }
+
+    .footer-top-sec > div{
+        margin-bottom: 20px !important;
+    }
+
+    .top-sub-sec-1 img{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .top-sub-sec-1 img{
+        width: 80%;
+    }
+
+    footer .footer-bottom-sec{
+        height: auto;
+        padding: 10px !important;
+    }
+}
