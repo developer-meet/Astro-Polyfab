@@ -53,6 +53,10 @@ body {
 
 /* Font Weight */
 
+.font-weight-700 {
+    font-weight: 700;
+}
+
 .font-weight-600 {
     font-weight: 600;
 }
@@ -86,6 +90,13 @@ body {
     border: none;
     border-radius: 5px;
     background-color: #ff9c32;
+}
+
+.call-us-now-btn{
+    height: 50px;
+    border: 2px solid #ff9c32;
+    background-color: var(--white);
+    border-radius: 5px;
 }
 
 /* Border */
@@ -788,5 +799,95 @@ footer .footer-top-sec{
 
     .products-details-sec-3 div p{
         display: none;
+    }
+}
+
+/* Sec- 4 in Products Details Section */
+
+.products-details-sec-4{
+    height: auto;
+    padding: 80px 0;
+}
+
+.sec-4-big-img{
+    height: 600px;
+    width: 600px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: auto;
+}
+
+.sec-4-small-img{
+    height: 100px;
+    width: 600px;
+    margin: auto;
+}
+
+.sec-4-small-img div img{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media screen and (max-width: 1280px) {
+    .body .products-details-sec-4{
+        display: block !important;
+        width: 100% !important;
+    }
+
+    .products-details-sec-4 .products-details-sec-4-img-section{
+        width: 100% !important;
+        margin: auto !important;
+    }
+
+    .products-details-sec-4-img-section .sec-4-big-img{
+        width: 100% !important;
+        height: 100%;
+    }
+
+    .products-details-sec-4-img-section .sec-4-small-img{
+        width: 100% !important;
+        height: 70px !important;
+        justify-content: space-between !important;
+        margin: 24px auto 0 !important;
+    }
+
+    .sec-4-small-img div{
+        width: 15% !important;
+    }
+
+    .sec-4-small-img div img{
+        width: 100% !important;
+        height: 100%;
+    }
+
+    .products-details-sec-4 .products-details-sec-4-img-details{
+        text-align: center !important;
+        width: 100% !important;
+    }
+
+    .products-details-sec-4-img-details div{
+        justify-content: center;
+    }
+
+    .products-details-sec-4-img-details div p{
+        text-align: center !important;
+    }
+}
+
+@media screen and (max-width: 450px) {
+
+    .products-details-sec-4-img-section .sec-4-small-img{
+        height: 50px !important;
+    }
+
+    .products-details-sec-4 .products-details-sec-4-img-details{
+        margin-top: 20px;
+    }
+
+    .products-details-sec-4-img-details div{
+        display: block !important;
+        width: 100%;
+    }
+
+    .products-details-sec-4-img-details .call-us-now-btn{
+        margin-top: 10px !important;
     }
 }
