@@ -758,3 +758,35 @@ footer .footer-top-sec{
         padding: 70px 10px !important;
     }
 }
+
+/* Products Details Section */
+
+/* Sec- 3 in Products Details Section */
+
+.products-details-sec-3{
+    height: 100px;
+    background-color: var(--black);
+}
+
+@media screen and (max-width: 320px) {
+
+    .body .products-details-sec-3{
+        height: auto !important;
+    }
+
+    .body .products-details-sec-3 div{
+        display: block !important;
+        width: 100% !important;
+        text-align: center !important;
+        padding: 10px 0 !important;
+    }
+
+    .products-details-sec-3 div a{
+        display: block;
+        width: 100% !important;
+    }
+
+    .products-details-sec-3 div p{
+        display: none;
+    }
+}
